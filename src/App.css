@@ -1,0 +1,329 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.bgIMG{
+  width: 100%;
+  background-image: url(Assets/BG1.jpeg);
+
+}
+.headercontainer{
+  width: 100%;
+  display: flex;
+  border-bottom:solid 3px yellow;
+}
+.headerelement{
+  display: flex;
+  justify-content: center;
+  background-color: #F11D51;
+  width: 25%;
+}
+.headerelement div{
+  font-size: 2vw;
+  color: white;
+  font-weight: 800;
+  transition-duration: 0.4s;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 100%;
+  height: 100%; cursor: pointer;
+
+}
+
+.headerelement div:hover{
+  background-color: #fb6161; 
+ 
+  
+
+}
+.headerimg{
+
+  max-width: 100%;
+}
+
+.imagesection{
+margin-top: 3%;
+width: 100%;
+
+  
+}
+.imagesection img{
+ width: inherit;
+
+  
+}
+
+.blogsection{
+  padding: 5%;
+  
+  margin-top: 9%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blogelemets{
+  display: grid;
+  max-width: 35%;
+  justify-items: center;
+  align-items: center;
+
+ 
+}
+.blogelemets img{
+
+  max-width: 80%;
+}
+
+.imageblog{
+display: flex;
+justify-content: center;
+}
+
+.contentblog{
+  width: 80%;
+  display: grid;
+justify-items: center;}
+.contentblog h1{
+  font-size: 1.7vw;
+}
+.contentblog p{
+  text-align: justify;
+  font-size: 1vw;
+}
+
+
+
+.aboutusheading h1{
+  text-align: center;
+  color: #F11D51;
+  font-size: 4vw;
+  margin-top: 10%;
+}
+
+.aboutusinfocontainer{
+ padding-top: 5%;
+ padding-bottom: 5%;
+  background: linear-gradient(4.25turn, #FDF4F7, #FAFBFD);
+  width: 100%;
+  display: flex;
+}
+
+.avboutusimage{
+  display: flex;
+  justify-content: center;
+width: 30%;
+
+}
+.avboutusimage img{
+
+  max-width: 70%;
+}
+.aboutuscontent{
+width: 70%;
+
+}
+
+.aboutuscontentheading h3{
+  font-size: 2vw;
+  
+}
+.aboutuscontentheading h5{
+  font-size: 1.4vw;
+
+}
+.aboutuscontentinfo{
+  font-size: 1.2vw;
+width: 90%;
+}
+.statscontainer{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.statselements{display: grid;
+  justify-items: center;
+background-color: #FEEEF1;
+border-radius: 50px;
+width: 27%;
+padding: 2%;
+}
+
+.statselements h1{
+font-size: 4.5vw;
+color: #735D62;
+}
+
+.statselements h3{
+  font-size: 3.5vw;
+  color: black;
+}
+
+.contactheading{
+  font-size: 2vw;
+  color: #F11D51;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.contactsubheading{
+  font-size: 1.5vw;
+  color: #735D62;
+  display: flex;
+  justify-content: center;
+}
+
+.contactformcontainer{
+  display: flex;
+  justify-content: space-around;
+}
+.contactimage{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.contactimage img{
+ max-width: 100%;
+
+}
+
+.contactform{
+
+  width:50% ;
+}
+.form1line{
+  width: 100%;
+}
+.form1line input{
+  width: 35%;
+  border-radius: 8px;
+  padding: 3%;
+  border: 1px solid black;
+  margin: 2%;
+  font-size: 1vw;
+
+
+}
+
+.form2line input{
+  width: 35%;
+  border-radius: 8px;
+  padding: 3%;
+  border: 0.1px solid black;
+  margin: 2%;
+  font-size: 1vw;
+
+
+}
+.form3line textarea{
+  border-radius: 8px;
+  /* border: none; */
+  padding: 3%;
+margin: 2%;
+  font-size: 1vw;
+}
+.submitbutton{
+  display: flex;
+  justify-content: center;
+}
+.submitbutton button{ 
+  border-radius: 8px;
+  border: none;
+  padding: 1.8%;
+  width: 15%;
+  background-color:#F11D51 ;
+  color: white;
+  margin: 2%;
+    font-size: 1vw;
+}
+.footer{
+  bottom: 0;
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 0.4vw;
+  background-color: #F11D51;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  
+  .blogsection{
+    display: grid;
+    justify-items: center;
+  }
+
+
+  .blogelemets{
+    max-width: 100%;
+  }
+  .contentblog h1{
+    font-size: 5vw;
+  }
+  .contentblog p{
+    font-size: 3vw;
+  }
+  .aboutusheading h1{
+    font-size: 9vw;
+  }
+
+  .aboutusinfocontainer{
+    display: grid;
+    justify-items: center;
+  }
+  .aboutuscontent{
+display: grid;
+justify-items: center;
+  }
+  .aboutuscontentheading h3{
+font-size: 4vh;
+  }
+
+  .aboutuscontentheading h5{
+    font-size: 2vh;
+  }
+  .aboutuscontentinfo{
+    width: 100%;
+  }
+.aboutuscontentinfo p{
+  text-align: center;
+  font-size: 2vw;
+}
+.avboutusimage{
+  width: 70%;
+}
+.statselements{
+  border-radius: 20px;
+}
+.contactformcontainer{
+  display: grid;
+  justify-items: center;
+}
+.contactimage{
+width: 70%;
+}
+.contactform{
+  width: 70%;
+}
+.form1line input{
+  font-size: 2vh;
+}
+.form2line input{
+  font-size: 2vh;
+}
+.submitbutton button {
+font-size: 3vh;
+width: 30%;
+
+}
+  }
